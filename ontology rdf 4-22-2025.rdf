@@ -1,0 +1,1019 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology/"
+     xml:base="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:r2x1-02-ontology="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000082 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000082">
+        <rdfs:label xml:lang="en">relationshipStrength</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000083 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000083">
+        <rdfs:label xml:lang="en">relationshipStrength</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#ATR-FTIR_Spectroscopy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#ATR-FTIR_Spectroscopy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Achromobacter_xylosoxidans -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Achromobacter_xylosoxidans">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Microbiology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Agriculture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Agriculture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Ampalaya_seed_oil-based_cream -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Ampalaya_seed_oil-based_cream">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Organic_Products"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Chemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Antimicrobial_Peptides -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Antimicrobial_Peptides">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Medical_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Biology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000001 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000001">
+        <rdfs:label xml:lang="en">Computer Science</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000002 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000002">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000001"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">simulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000003 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000003">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000002"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">turbine simulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000004 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000004">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000003"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000013"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">Fusion 360</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000005 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000005">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000002"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">in silico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000006 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000006">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000005"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000011"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">molecular dynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000007 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000007">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000006"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">AIREBO-M</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000008 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000008">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000009"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000006"/>
+        <rdfs:label xml:lang="en">LAMMPS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000009 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000009">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000006"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">Large-scale Atomic/Molecular Massively Parallel Simulator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000010 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000010">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000006"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">geometry optimization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000011 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000011">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000005"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">molecular docking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000012 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000012">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000011"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">modeling of amiloride derivatives</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000013 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000013">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000002"/>
+        <rdfs:label xml:lang="en">simulation tools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000014 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000014">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000013"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">ANSYS-CFD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000015 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000015">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000014"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">Ansys Fluent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000016 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000016">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000003"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000013"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">3D-model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000017 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000017">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000027"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000013"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">entity-component-system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000018 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000018">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000017"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">Unreal Engine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000019 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000019">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000005"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">bioinformatics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000020 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000020">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000019"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">CAMP database</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000021 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000021">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000019"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">CellPPD Calculator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000022 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000022">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000019"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">16S rRNA sequencing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000023 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000023">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000001"/>
+        <rdfs:label xml:lang="en">system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000024 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000024">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000001"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">machine learning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000025 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000025">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000001"/>
+        <rdfs:label xml:lang="en">programming languages</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000026 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000026">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000001"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">optimization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000027 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000027">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000013"/>
+        <rdfs:label xml:lang="en">ECS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000028 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000028">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000023"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000036"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000037"/>
+        <rdfs:label xml:lang="en">interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000029 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000029">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000028"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">UI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000030 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000030">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000028"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">web interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000031 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000031">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000028"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">Notification System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000032 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000032">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000031"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">PSHS announcement systems</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000033 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000033">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000028"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">evaluation methods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000034 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000034">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000072"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000033"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">System Usability Scale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000036 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000036">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000023"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">embedded systems</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000037 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000037">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000036"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">Arduino</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000038 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000038">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000023"/>
+        <rdfs:label xml:lang="en">web systems</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000039 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000039">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000038"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">browser extension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000040 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000040">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000039"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000041"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">Manifest V3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000041 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000041">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000039"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">Google API</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000042 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000042">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000047"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000038"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">GClass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000043 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000043">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000038"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">web-based learning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000047 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000047">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000038"/>
+        <rdfs:label xml:lang="en">Google Classroom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000048 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000048">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000036"/>
+        <rdfs:label xml:lang="en">Raspberry Pi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000049 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000049">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000050"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000058"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">CNN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000050 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000050">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000058"/>
+        <r2x1-02-ontology:COMPUTER_SCIENCE_000083 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</r2x1-02-ontology:COMPUTER_SCIENCE_000083>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">convolutional neural network</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000051 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000051">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000058"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">logistic regression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000052 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000052">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000024"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">predictive modeling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000053 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000053">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000052"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">task prioritization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000054 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000054">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000052"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">weighted-scoring model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000055 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000055">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000057"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000026"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000052"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">principal component analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000057 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000057">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000052"/>
+        <rdfs:label xml:lang="en">PCA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000058 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000058">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000024"/>
+        <rdfs:label xml:lang="en">learning models</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000059 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000059">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000025"/>
+        <rdfs:label xml:lang="en">web-focused</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000060 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000060">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000059"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">HTML</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000061 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000061">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000059"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">CSS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000062 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000062">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000059"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">Javascript</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000063 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000063">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000062"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">JQuery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000064 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000064">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000025"/>
+        <rdfs:label xml:lang="en">Python</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000065 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000065">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000025"/>
+        <rdfs:label xml:lang="en">C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000066 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000066">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000025"/>
+        <rdfs:label xml:lang="en">C++</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000072 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000072">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000033"/>
+        <rdfs:label xml:lang="en">SUS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000073 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000073">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000002"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">Simplified General Perturbations model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000074 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000074">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000073"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">NORAD number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000075 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000075">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000023"/>
+        <rdfs:label xml:lang="en">system performance metrics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000076 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000076">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000075"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000077"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">CPU utilization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000077 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000077">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000075"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">GPU utilization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000078 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000078">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000024"/>
+        <rdfs:label xml:lang="en">time series analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000079 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000079">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000078"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">interrupted time series analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000080 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000080">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000078"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">seven-day moving average</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000081 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000081">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000001"/>
+        <rdfs:comment>KEYWORD</rdfs:comment>
+        <rdfs:label xml:lang="en">web scraping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Chemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Chemistry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Engineering"/>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Gait_Disorders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Gait_Disorders">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Medical_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Geometry_Optimization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Geometry_Optimization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Medical_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Medical_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Biology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Microbiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Microbiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Biology"/>
+        <r2x1-02-ontology:COMPUTER_SCIENCE_000083 rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></r2x1-02-ontology:COMPUTER_SCIENCE_000083>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Molecular_Docking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Molecular_Docking"/>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Organic_Products -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Organic_Products">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Chemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Physics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Physics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Technology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#16S_rRNA_sequencing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#16S_rRNA_sequencing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#Microbiology"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000002"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000023"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000024"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000025"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000026"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000003"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000005"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000013"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000004"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000014"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000016"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000017"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000006"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000011"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000019"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000007"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000008"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000009"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000010"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000020"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000021"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000022"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000028"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000036"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000038"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000028"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000037"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000048"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000029"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000030"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000031"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000033"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000039"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000042"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000043"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000049"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000050"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000051"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000052"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000053"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000054"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000055"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000059"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000064"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000065"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000066"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000060"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000061"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/davep/ontologies/2025/3/r2x1-02-ontology#COMPUTER_SCIENCE_000062"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
